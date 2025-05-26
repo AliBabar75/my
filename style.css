@@ -200,15 +200,17 @@ animation: spin 3s linear infinite;
 }
 
 
-
-
 }
 
 
-.item0{
-    position: relative;
-    right: 390px;
-    scroll-behavior: smooth;
-    transition: 1s ease-in;
-    transform:translateX(390px) ;
+.flex1 div{
+border: solid green 0.6vw;
 }
+.flex1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+text-align: center;
+}
+
+
