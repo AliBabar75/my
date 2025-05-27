@@ -203,46 +203,11 @@ animation: spin 3s linear infinite;
 
 }
 
-@media (max-width: 810px) and (min-height:680px){
-.icon{
-transform: translateX(-60vw);
-    animation: lef 0.1s ease-in-out ;
-    animation-timeline: view();
-}
-@keyframes lef{
-10%{
-    transform: translateX(17px);
-}
-100%{
-transform: translateX(30px);
-}
 
-}
-
-}
-
-
-
-.flex1 div,h1,h2,h3,h4{
-font-size: 1rem;
-text-align: center;
-}
-.flex1{
+.unicd{
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
-
-.experiencessection{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-
 
 
