@@ -13,8 +13,9 @@ color: white;
 .nav1{
 
 background-image:linear-gradient( to left,rgb(196, 157, 59), rgb(170, 138, 69) );
-
-
+}
+nav ul,li{
+    align-self: center;
 }
 
 .d1, #ah, #ah1{
@@ -159,7 +160,6 @@ flex-wrap: wrap;
   }
 
 
-
 }
 
 @media (max-width: 400px) {
@@ -202,15 +202,83 @@ animation: spin 3s linear infinite;
 
 }
 
+@media (max-width: 810px) and (min-height:680px){
 
-.flex1 div{
-border: solid green 0.6vw;
+
+}
+
+
+
+.flex1 div,h1,h2,h3,h4{
+font-size: 1rem;
+text-align: center;
 }
 .flex1{
     display: flex;
     justify-content: center;
     align-items: center;
-text-align: center;
+    
+}
+
+.experiencessection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .item1{
+    background-color: gold;
+    width: 80VW;
+} */
+.item2{
+    width: 50vw;
+height: 50vh;
+    border-radius: 10px;
+     filter: drop-shadow(0 -1mm 2mm rgb(196, 157, 59));
+    background-image:linear-gradient( to left,rgb(196, 157, 59), rgb(80, 68, 43) );
+ display: flex;
+flex-direction: row-reverse;
+ /* flex-wrap: wrap; */
+ gap: 10PX;
+animation: slidd 1s ease-in-out;
+}
+@keyframes slidd{
+    from{
+
+position: relative;
+    left: -150px;
+    }
+to{
+translate: 5% 0;
+
+}
 }
 
 
+
+
+
+.itimg1,h1,h2,h3,h4{
+font-size: 0.8em;
+}
+
+.itimg1 p{
+font-size: 0.7em;
+height: 9vh;
+
+}
+.itimg1{
+    /* border: solid white; */
+padding: 5px;
+/* color: aqua; */
+
+}
+.itimg1 img{
+    
+    opacity: 0.8;
+    width:40vw;
+    height: 25vh;
+object-fit:fill;
+    border-radius: 10px;
+}
