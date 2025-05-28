@@ -131,10 +131,22 @@ flex-wrap: wrap;
 }
 .hp1{
      text-wrap: wrap; 
-    text-align:left;
+    text-align:center;
     width: 200px;
     
 }
+.iconh1{
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 600;
+    background-image:linear-gradient( 360deg,rgb(196, 157, 59), rgb(80, 68, 43) );
+color: gold;
+
+}
+.key{
+filter: drop-shadow(0 -1mm 2mm rgb(10, 9, 6));
+}
+
 @media (max-height:680px){
   .icon{
     height: 300vh;
@@ -208,6 +220,22 @@ animation: spin 3s linear infinite;
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: clr 1s linear infinite;
+
+}
+@keyframes clr{
+    0%{ filter: drop-shadow(0 -1mm 3mm rgb(196, 157, 59));
+
+    }
+
+
 }
 
+.card{
+       
+  background-image:linear-gradient( to left,rgb(196, 157, 59), rgb(80, 68, 43) );   
+}
 
+footer{
+    background-image:linear-gradient( to left,rgb(196, 157, 59), rgb(80, 68, 43) );
+}
