@@ -239,10 +239,11 @@ animation: spin 3s linear infinite;
 /*project1  */
 .project1{
     display: flex;
+    
     justify-content: center;
     align-items: center;
 position: relative;
-top: 450px;
+top: 420px;
 }
 .containeranim h1{font-size: 1em;}
 .containeranim {
