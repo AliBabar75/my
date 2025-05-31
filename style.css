@@ -170,15 +170,8 @@ align-items: center;
 flex-wrap: wrap;
 
   }
-.project1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-position: relative;
-top: 590px;
 
 }
-
 @media (max-width: 400px) {
 .img1 img{
     position: relative;
@@ -249,7 +242,7 @@ animation: spin 3s linear infinite;
     justify-content: center;
     align-items: center;
 position: relative;
-top: 290px;
+top: 350px;
 }
 .containeranim h1{font-size: 1em;}
 .containeranim {
