@@ -242,7 +242,7 @@ animation: spin 3s linear infinite;
     justify-content: center;
     align-items: center;
 position: relative;
-top: 350px;
+top: 450px;
 }
 .containeranim h1{font-size: 1em;}
 .containeranim {
