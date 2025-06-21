@@ -234,23 +234,26 @@ animation: spin 3s linear infinite;
   background-image:linear-gradient( to left,rgb(196, 157, 59), rgb(80, 68, 43) );   
 }
 .projectsec{
-    height: 200vh;
+    height: 125vh;
 }
 /*project1  */
 .project1{
+    margin-top: -180px;
+    border: solid purple;
     display: flex;
-    
     justify-content: center;
     align-items: center;
 position: relative;
-top: 420px;
+top: 30px;
 }
 .containeranim h1{font-size: 1em;}
 .containeranim {
-    height: 20px;
+    border: solid white;
+    width: 600px;
+    height: auto;
     display: flex;
     justify-content: center;
-    align-content: center;
+    /* align-content: center; */
     flex-wrap: wrap;
     gap: 20px;
     
@@ -349,6 +352,49 @@ transform: translate3d( 42px, 62px, 0px);
     background-color:  rgba(24, 197, 250, 0.336);
 
 }
+
+/*rocket  */
+.prosec2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container2{
+    background-image:linear-gradient( to left,rgb(196, 157, 59), rgb(80, 68, 43) );
+    width: 26.78em;
+    height: 30vh;
+    /* overflow: hidden; */
+}
+
+
+/* animation */
+.rocket {
+width: 15em;
+    transform: rotate(90deg);
+    position: relative;
+    animation: anim 1s alternate infinite;
+
+}
+
+@keyframes anim {
+    0% {
+        left: 0px;
+
+    }
+
+    10% {
+
+        transform: scale(1);
+
+
+    }
+
+    100% {
+        left: 160px;
+    }
+}
+
+
 
 
 /*  */
