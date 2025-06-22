@@ -237,15 +237,16 @@ animation: spin 3s linear infinite;
 }
 .projectsec{
     height: 125vh;
+    
 }
 /*project1  */
 .project1{
     margin-top: -180px;
-  
     display: flex;
     justify-content: center;
     align-items: center;
 position: relative;
+top: 200px;
 
 }
 .containeranim h1{font-size: 1em;}
