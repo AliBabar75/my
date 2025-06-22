@@ -220,7 +220,7 @@ animation: spin 3s linear infinite;
     align-items: center;
     animation: clr 1s linear infinite;
     position: relative;
-    bottom: 30px;
+    
 
 }
 @keyframes clr{
@@ -246,16 +246,15 @@ animation: spin 3s linear infinite;
     justify-content: center;
     align-items: center;
 position: relative;
-top: 200px;
+
 }
 .containeranim h1{font-size: 1em;}
 .containeranim {
-    /* border: solid white; */
+
     width: 600px;
     height: auto;
     display: flex;
     justify-content: center;
-    /* align-content: center; */
     flex-wrap: wrap;
     gap: 20px;
     
